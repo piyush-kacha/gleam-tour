@@ -1,3 +1,8 @@
+//// Assignment
+//// A value can be assigned to a variable using let.
+//// Variable names can be reused by later let bindings, but the values they reference are immutable, so the values themselves are not changed or mutated in any way. 
+//// In Gleam variable and function names are written in snake_case. 
+
 import gleam/io
 
 pub fn examples() {
