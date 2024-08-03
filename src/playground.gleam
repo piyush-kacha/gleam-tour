@@ -2,9 +2,12 @@
 import basics/assignment_
 import basics/blocks_
 import basics/check_equality_
+import basics/constants_
 import basics/module_
 import basics/number_formats_
 import basics/type_aliases_
+import functions/basics_
+import functions/higher_order_
 import types/bool_
 import types/float_
 import types/int_
@@ -23,4 +26,7 @@ pub fn main() {
   type_aliases_.examples()
   blocks_.examples()
   lists_.examples()
+  constants_.examples()
+  basics_.examples()
+  higher_order_.examples()
 }
