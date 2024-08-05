@@ -9,6 +9,7 @@ import basics/type_aliases_
 import functions/anonymous_fn_
 import functions/basics_
 import functions/captures_fn_
+import functions/generic_fn_
 import functions/higher_order_
 import types/bool_
 import types/float_
@@ -33,4 +34,5 @@ pub fn main() {
   higher_order_.examples()
   anonymous_fn_.examples()
   captures_fn_.examples()
+  generic_fn_.examples()
 }
