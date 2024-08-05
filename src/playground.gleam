@@ -11,6 +11,8 @@ import functions/basics_
 import functions/captures_fn_
 import functions/generic_fn_
 import functions/higher_order_
+import functions/labelled_arguments_
+import functions/pipelines_
 import types/bool_
 import types/float_
 import types/int_
@@ -35,4 +37,6 @@ pub fn main() {
   anonymous_fn_.examples()
   captures_fn_.examples()
   generic_fn_.examples()
+  pipelines_.examples()
+  labelled_arguments_.examples()
 }
