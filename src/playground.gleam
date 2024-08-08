@@ -6,6 +6,7 @@ import basics/constants_
 import basics/module_
 import basics/number_formats_
 import basics/type_aliases_
+import flow_control/alternative_patterns_
 import flow_control/case_expressions_
 import flow_control/list_patterns_
 import flow_control/list_recursion_
@@ -56,4 +57,5 @@ pub fn main() {
   tail_calls_.examples()
   list_recursion_.examples()
   multiple_subjects_.examples()
+  alternative_patterns_.examples()
 }
