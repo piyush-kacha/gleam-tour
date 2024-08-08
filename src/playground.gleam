@@ -8,9 +8,11 @@ import basics/number_formats_
 import basics/type_aliases_
 import flow_control/alternative_patterns_
 import flow_control/case_expressions_
+import flow_control/guards_
 import flow_control/list_patterns_
 import flow_control/list_recursion_
 import flow_control/multiple_subjects_
+import flow_control/pattern_aliases_
 import flow_control/recursion_
 import flow_control/string_patterns_
 import flow_control/tail_calls_
@@ -58,4 +60,6 @@ pub fn main() {
   list_recursion_.examples()
   multiple_subjects_.examples()
   alternative_patterns_.examples()
+  pattern_aliases_.examples()
+  guards_.examples()
 }
