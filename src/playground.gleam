@@ -6,6 +6,15 @@ import basics/constants_
 import basics/module_
 import basics/number_formats_
 import basics/type_aliases_
+import data_types/bit_arrays_
+import data_types/custom_types_
+import data_types/nil_
+import data_types/record_accessors_
+import data_types/record_pattern_matching_
+import data_types/record_updates_
+import data_types/records_
+import data_types/results_
+import data_types/tuples_
 import flow_control/alternative_patterns_
 import flow_control/case_expressions_
 import flow_control/guards_
@@ -62,4 +71,16 @@ pub fn main() {
   alternative_patterns_.examples()
   pattern_aliases_.examples()
   guards_.examples()
+
+  // Data types examples
+  tuples_.examples()
+  custom_types_.examples()
+
+  records_.examples()
+  record_accessors_.examples()
+  record_pattern_matching_.examples()
+  record_updates_.examples()
+  nil_.examples()
+  results_.examples()
+  bit_arrays_.examples()
 }
