@@ -1,4 +1,7 @@
 // local modules
+import advanced_features/opaque_types_
+import advanced_features/use_
+import advanced_features/use_sugar_
 import basics/assignment_
 import basics/blocks_
 import basics/check_equality_
@@ -92,4 +95,9 @@ pub fn main() {
   result_module_.examples()
   dict_module_.examples()
   option_module_.examples()
+
+  // Advance Features
+  opaque_types_.main()
+  use_.main()
+  use_sugar_.main()
 }
