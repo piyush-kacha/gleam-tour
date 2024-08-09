@@ -33,6 +33,10 @@ import functions/generic_fn_
 import functions/higher_order_
 import functions/labelled_arguments_
 import functions/pipelines_
+import standard_library/dict_module_
+import standard_library/list_module_
+import standard_library/option_module_
+import standard_library/result_module_
 import types/bool_
 import types/float_
 import types/int_
@@ -75,7 +79,6 @@ pub fn main() {
   // Data types examples
   tuples_.examples()
   custom_types_.examples()
-
   records_.examples()
   record_accessors_.examples()
   record_pattern_matching_.examples()
@@ -83,4 +86,10 @@ pub fn main() {
   nil_.examples()
   results_.examples()
   bit_arrays_.examples()
+
+  // Standard Library
+  list_module_.main()
+  result_module_.examples()
+  dict_module_.examples()
+  option_module_.examples()
 }
